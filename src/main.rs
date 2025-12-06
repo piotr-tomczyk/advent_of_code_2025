@@ -3,9 +3,10 @@ mod day_2;
 mod day_3;
 mod day_4;
 mod day_5;
+mod day_6;
 mod demo;
 
-const DAY: u8 = 5;
+const DAY: u8 = 6;
 const PART: u8 = 2;
 
 fn main() {
@@ -22,6 +23,8 @@ fn main() {
         (4, 2) => day_4::solution_2::run(),
         (5, 1) => day_5::solution_1::run(),
         (5, 2) => day_5::solution_2::run(),
+        (6, 1) => day_6::solution_1::run(),
+        (6, 2) => day_6::solution_2::run(),
         _ => println!("Day {} Part {} not implemented", DAY, PART),
     }
 }

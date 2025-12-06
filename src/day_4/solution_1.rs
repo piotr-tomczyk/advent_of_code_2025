@@ -85,5 +85,5 @@ pub fn run() {
         }
     }
 
-    println!("Day 3 Part 1 result is: {result}");
+    println!("Day 4 Part 1 result is: {result}");
 }
